@@ -4,17 +4,17 @@
 
 <div class="container ">
         
-    <div class="card-columns" style="padding: 10px; margin: 20px;">
+    <div class="card-columns" style="padding: 10px; margin: 10px;">
         <div class="card" align="right " style="width: 32rem; border:5px rgb(10, 10, 9) solid">
             
             <div class="card-body">
-                <h5 class="card-title">Score: {{score}}</h5>
+                <a href="#" class="btn btn-warning"><h5><b>RESULTS:</b></h5></a> 
 
-                <p class="card-text">Percentage: {{percent}}%</p>
-                <p class="card-text">Time Taken: {{time}} seconds</p>
-                <p class="card-text">Correct answers: {{correct}}</p>
-                <p class="card-text">Incorrect answers: {{wrong}}</p>
-                <p class="card-text">Total questions: {{total}}</p>
+                <p class="card-text"><b>Percentage: {{percent}}%</b></p>
+                <p class="card-text"><b>Time Taken: {{time}} seconds</b></p>
+                <a href="#" class="btn btn-success"><b>CORRECT ANSWERS: {{correct}}</b></a>
+                <a href="#" class="btn btn-danger"><b>INCORRECT ANSWERS: {{wrong}}</b></a>
+                <p><a href="#" class="btn btn-dark">TOTAL QUESTIONS: {{total}}</a></p>
             
             </div>
         </div>
